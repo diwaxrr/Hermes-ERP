@@ -1,0 +1,19 @@
+# Archivos de entorno y paquetes
+venv/
+env/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Archivos de Django
+*.log
+*.sqlite3
+/media
+/static
+/staticfiles
+
+# Variables de entorno sensibles (¡MUY IMPORTANTE!)
+.env
+
+varios/
+1terminal.txt

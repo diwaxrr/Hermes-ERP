@@ -1,0 +1,14 @@
+~/hermes$ cd ~/hermes
+python manage.py test inventario.tests.IntegracionInventarioContabilidadTest
+Found 1 test(s).
+System check identified no issues (0 silenced).
+E
+======================================================================
+ERROR: IntegracionInventarioContabilidadTest (unittest.loader._FailedTest.IntegracionInventarioContabilidadTest)
+----------------------------------------------------------------------
+AttributeError: module 'inventario.tests' has no attribute 'IntegracionInventarioContabilidadTest'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
